@@ -19,3 +19,22 @@ Primary.args = {
   label: 'Button',
 };
 
+export const Secondary = Template.bind({});
+Secondary.args = {
+  type: 'secondary',
+  label: 'Button',
+}
+
+export const Small = Template.bind({});
+Small.args = {
+  size: 'small',
+  type: 'primary',
+  label: 'Button',
+}
+
+export const Large = Template.bind({});
+Large.args = {
+  size: 'large',
+  type: 'primary',
+  label: 'Button',
+}
